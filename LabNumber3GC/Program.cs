@@ -11,7 +11,7 @@ namespace LabNumber3GC
 
             while (UserContinue == true)
             {
-                Console.WriteLine("Please enter your first name");
+                Console.WriteLine("Please enter your first name:");
                 string FirstName = (Console.ReadLine());
                     Console.WriteLine("Please enter a whole number between 1 and 100");
                 UserInput = int.Parse(Console.ReadLine());
