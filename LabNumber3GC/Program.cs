@@ -25,9 +25,13 @@ namespace LabNumber3GC
                 {
                     Console.WriteLine(FirstName + ", " + UserInput + " is even and less than 25");
                 }
-                else if (UserInput % 2 == 0)
+                else if (UserInput % 2 == 0 && UserInput >= 26 && UserInput <= 60)
                 {
 
+                    Console.WriteLine(FirstName + ", even");
+                }
+                else if(UserInput % 2 == 0 && UserInput >=60)
+                    {
                     Console.WriteLine(FirstName + ", " + UserInput + " is even");
                 }
                 else
